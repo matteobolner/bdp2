@@ -1,0 +1,2 @@
+ sudo docker run -v /home/pelmo/Desktop/uni/BDP2/bdp2/hands_on_udocker/:/shared_volume im_proc
+
