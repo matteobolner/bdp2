@@ -7,5 +7,4 @@ COPY multiple.py shared_volume/multiple.py
 COPY input/ shared_volume/input
 COPY output/ shared_volume/output
 WORKDIR shared_volume
-#ENTRYPOINT ["/usr/bin/python3", "multiple.py"]
-CMD ["python3", "multiple.py", "/shared_volume"]
+ENTRYPOINT ["/usr/bin/python3", "multiple.py"]
