@@ -8,8 +8,8 @@ from skimage import io
 from skimage.color import rgb2gray
 
 #edit this with the complete path
-IMAGE_DIR = "/shared_volume/input"
-OUTPUT_DIR = "/shared_volume/output"
+IMAGE_DIR = "/shared_dir/input"
+OUTPUT_DIR = "/shared_dir/output"
 
 def convert(filename, name_only):
    # convert an image to its B/W equivalent
