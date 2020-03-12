@@ -1,0 +1,1 @@
+udocker run -v $(pwd):/shared_dir matteobolner/image_processing:latest
