@@ -1,0 +1,3 @@
+Executable = /home/ubuntu/udocker
+Arguments =  run -v /shared_dir/:/shared_dir matteobolner/image_processing:latest
+Queue 3
