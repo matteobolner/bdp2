@@ -1,0 +1,6 @@
+1)Set up HTCondor cluster with 1 master and 2 slaves, and a NFS
+2)Tweak the multiple.py script
+3)Create Docker image which encapsulates and runs multiple.py
+4)Push image on repository
+5)Install udocker on HTCondor cluster
+6)Pull image with udocker and run it on shared directory containing images
