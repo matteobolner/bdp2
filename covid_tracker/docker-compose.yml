@@ -1,0 +1,19 @@
+version: "3.8"
+volumes:
+  portainer_data:
+services:
+  jupyter:
+    image: matteobolner/bdp2_covid_tracker:latest
+    ports:
+      - "8888:8888"
+    volumes:
+      - /home/pelmo/repos/bdp2_covid_tracker/.work/:/home/jovyan/work
+    environment:
+      - GEN_CERT=yes 
+  portainer:
+    image: portainer/portainer
+    ports:
+      - "9000:9000"
+    volumes: 
+      - portainer_data:/home/pelmo/portainer_local
+      - /var/run/docker.sock:/var/run/docker.sock
