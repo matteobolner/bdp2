@@ -1,0 +1,1 @@
+docker run -d -p 443:9000 -p 8000:8000 --name portainer --restart always -v ~/local-certs:/certs -v portainer_data:/data portainer/portainer --ssl --sslcert /certs/portainer.crt --sslkey /certs/portainer.key
