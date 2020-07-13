@@ -1,6 +1,6 @@
 The following scripts generate an X.509 certificate using openssl, to allow a secure https access to the portainer container.
 
-Prerequisites:
+Prerequisites:  
 -open TCP port 9000 for incoming traffic
  
 Instructions:
