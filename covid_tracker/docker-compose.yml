@@ -7,7 +7,7 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - /home/pelmo/repos/bdp2_covid_tracker/.work/:/home/jovyan/work
+      - /home/ubuntu/repos/bdp2_assignments/covid_tracker/.work/:/home/jovyan/work
     environment:
       - GEN_CERT=yes 
   portainer:
@@ -15,5 +15,5 @@ services:
     ports:
       - "9000:9000"
     volumes: 
-      - portainer_data:/home/pelmo/portainer_local
+      - portainer_data:/home/ubuntu/repos/bdp2_assignments/covid_tracker/portainer_local
       - /var/run/docker.sock:/var/run/docker.sock
